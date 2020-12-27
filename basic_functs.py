@@ -11,6 +11,7 @@ def square(color, length):#header
         t1.color(color)
         t1.fd(length)
         t1.left(90)
+        #none
 
 def move(length):
     t1.up()
