@@ -13,7 +13,7 @@ class Player:
         #self.speedx=0; self.speedy=0
         
         
-    def move(self): None
+    def move(self): ...
         
     def update(self): ...
 
