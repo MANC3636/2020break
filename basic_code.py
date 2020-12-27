@@ -22,7 +22,7 @@ class Game:
 
         self.screen=pg.display.set_mode((self.screen_width, self.screen_height))
         self.clock=pg.time.Clock()
-        self.player=Player()#Game is a composite
+        #self.player=Player()#Game is a composite
 
     def display_game(self):
         while True:
@@ -33,7 +33,7 @@ class Game:
 
 
             self.screen.fill(self.colors["color1"])#put in a color
-            self.screen.blit(self.player.image, (100, 100))
+            #self.screen.blit(self.player.image, (100, 100))
             pg.display.flip()
 
 game=Game()
