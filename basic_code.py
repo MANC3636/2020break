@@ -10,6 +10,7 @@ class Player:
         self.image_rect=self.image.get_rect()#will appear in upper left of screen
         self.image_rect.x=100; self.image_rect.y=100
         #self.speedx=0; self.speedy=0
+        #changed this version
 
 
 
